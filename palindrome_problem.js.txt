@@ -1,0 +1,14 @@
+let N = 7;
+let str = "reviver";
+let bag = "";
+for (let i = N; i>= 0; i++)
+  {
+    bag = bag + str[i];
+  }
+if (str === bag)
+{
+  console.log("Yes");
+}
+else{
+  console.log("No");
+}
